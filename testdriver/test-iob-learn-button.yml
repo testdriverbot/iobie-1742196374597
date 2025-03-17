@@ -1,0 +1,13 @@
+version: 4.2.19
+session: 67d7d0ac30f84007f38ce7c1
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "IOB Learn" button.
+    commands:
+      - command: hover-text
+        text: IOB Learn
+        description: button in the top right corner of the browser
+        action: click
