@@ -1,0 +1,11 @@
+version: 4.2.19
+session: 67d7d0ad30f84007f38ce7c3
+steps:
+  - prompt: Focus the browser window.
+    commands: []
+  - prompt: Click on "View courses" button.
+    commands:
+      - command: hover-text
+        text: View courses
+        description: button to view available courses
+        action: click
