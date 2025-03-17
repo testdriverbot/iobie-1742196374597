@@ -1,0 +1,13 @@
+version: 4.2.19
+session: 67d7d0a430f84007f38ce7bf
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on the "Join" button.
+    commands:
+      - command: hover-text
+        text: Join
+        description: join button in the top right of the header
+        action: click
